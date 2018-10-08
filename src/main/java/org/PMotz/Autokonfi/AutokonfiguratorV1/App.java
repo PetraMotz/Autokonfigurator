@@ -1,13 +1,10 @@
-package org.PMotz.Autokonfi.AutokonfiguratorV1;
+package PMO_maven1;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Kommandozeilenmenue menue =  new Kommandozeilenmenue();
+        menue.starteMenu();
     }
 }
